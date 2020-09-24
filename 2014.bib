@@ -1,0 +1,168 @@
+@article{2014-simu,
+author = {Leila Jalali and Sharad Mehrotra and Nalini Venkatasubramanian},
+title ={Simulation integration: using multidatabase systems concepts},
+journal = {SIMULATION},
+volume = {90},
+number = {11},
+pages = {1268-1289},
+year = {2014},
+doi = {10.1177/0037549714553151},
+URL = { 
+        https://doi.org/10.1177/0037549714553151
+},
+eprint = { 
+        https://doi.org/10.1177/0037549714553151   
+},
+    abstract = { This paper considers the challenge of designing a framework that supports the integration of multiple existing simulation models into an integrated simulation environment (multisimulation). We aim to facilitate the process of fusing together the independently created simulators into an integrated simulation environment wherein we can model and execute complex scenarios involving multiple simulators. In this paper, we focus on solutions for the synchronization problem in multisimulation to orchestrate consistent information flow through multiple simulators. In particular, we provide: (1) a transaction-based approach to modeling the synchronization problem in multisimulations by mapping it to a problem similar to multidatabase concurrency; we express multisimulation synchronization as a scheduling problem where the goal is to generate “correct schedules” for time advancement and data exchange across simulators that meets the dependencies without loss of concurrency; (2) a hybrid scheduling strategy which adapts itself to the “right” level of pessimism/optimism based on the state of the execution and underlying dependencies. We also develop two key optimizations: (a) efficient checkpointing/rollback techniques; and (b) relaxation model for dependencies which guarantees bounded violation of consistency to support higher levels of concurrency. We evaluate our proposed techniques via a detailed case study from the emergency response domain by integrating three disparate simulators: a fire simulator (CFAST), an evacuation simulator (Drillsim) and a communication simulator (LTEsim). }
+}
+
+@inproceedings{2014-middleware,
+author = {Wu, Di and Liu, Qiang and Zhang, Yuan and McCann, Julie and Regan, Amelia and Venkatasubramanian, Nalini},
+title = {CrowdWiFi: Efficient Crowdsensing of Roadside WiFi Networks},
+year = {2014},
+isbn = {9781450327855},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2663165.2663329},
+doi = {10.1145/2663165.2663329},
+abstract = {In this paper, we present CrowdWiFi, a novel vehicular middleware to identify and localize roadside WiFi APs that are located outside or inside buildings. Our work is motivated by the recent surge in availability of open WiFi access points (APs) that are enabling opportunistic data services to moving vehicles. Two key elements of CrowdWiFi that provide vehicles with opportunistic WiFi access include (a) an online compressive sensing component and (b) an offline crowdsourcing module. Online compressive sensing (CS) techniques are primarily used to for the coarse-grained estimation of nearby APs along the driving route; here, the received signal strength (RSS) values are recorded at runtime, and the number and locations of APs are recovered immediately based on limited RSS readings. The offline crowdsourcing mechanism assigns the online CS tasks to crowd-vehicles and aggregates answers using a bipartite graphical model. This offline crowdsourcing executes at a crowd-server that iteratively infers the reliability of each crowd-vehicle from the aggregated sensing results and refines the estimation of APs using weighted centroid processing. Extensive simulation results and real testbed experiments confirm that CrowdWiFi can successfully reduce the number of measurements needed for AP recovery, while maintaining satisfactory counting and localization accuracy. In addition, the impact of CrowdWiFi middleware on WiFi handoff and data transmission applications is examined.},
+booktitle = {Proceedings of the 15th International Middleware Conference},
+pages = {229–240},
+numpages = {12},
+keywords = {crowdsensing, localization, vehicular networks},
+location = {Bordeaux, France},
+series = {Middleware '14}
+}
+
+@INPROCEEDINGS{2014-ghtc,
+  author={G. {Jain} and S. {Babu} and R. {Raj} and K. {Benson} and B. S. {Manoj} and N. {Venkatasubramanian}},
+  booktitle={2014 IEEE Global Humanitarian Technology Conference - South Asia Satellite (GHTC-SAS)}, 
+  title={On disaster information gathering in a complex shanty town terrain}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={147-153},
+  abstract={Information gathering during a disaster management has a crucial role in designing the disaster response mechanism. Several factors such as geography, infrastructure, and population influence the information gathering process. The task is particularly complex when disasters strike a shanty town. A shanty town terrain is characterized by its high population density, considerable level of under-development, and poor infrastructure. Mobile Data Collection agents (MDCs) can be assigned with the task of data collection in the aftermath of a disaster. In this paper, we study the difficulty of data gathering process using two movement models, Path Type Based Movement and Path Memory Based Movement in combination with data hand-off strategies No Hand-off, Superior-Only Hand-off and Superior-Peer Hand-off. We use the metrics such as percentage data collected, percentage way coverage, and the number of inter-MDC meetings for analyzing the performance of MDCs in the data gathering process. The low values of data collected and way coverage show the difficulty in obtaining disaster-data from a complex shanty town terrain.},
+  keywords={data acquisition;disasters;emergency management;mobile computing;disaster information gathering;complex shanty town terrain;disaster management;disaster response mechanism;geography;infrastructure;information gathering process;high population density;mobile data collection agents;MDC;data gathering process;movement models;path type based movement;path memory based movement;data hand-off strategies;no hand-off;superior-only hand-off;superior-peer hand-off;percentage way coverage;Sensors;Cities and towns;Roads;Data models;Junctions;Data collection;Peer-to-peer computing;Disaster;information gathering;DTN;movement models;hand-off},
+  doi={10.1109/GHTC-SAS.2014.6967574},
+  ISSN={},
+  month={Sep.},}
+
+@article{2014-mcc-survey,
+  title={Mobile cloud computing: A survey, state of art and future directions},
+  author={Rahimi, M Reza and Ren, Jian and Liu, Chi Harold and Vasilakos, Athanasios V and Venkatasubramanian, Nalini},
+  journal={Mobile Networks and Applications},
+  volume={19},
+  number={2},
+  pages={133--143},
+  year={2014},
+  publisher={Springer}
+}
+
+@INPROCEEDINGS{2014-edac,
+  author={S. {Sarma} and N. {Venkatasubramanian} and N. {Dutt}},
+  booktitle={2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC)}, 
+  title={Sense-making from distributed and mobile sensing data: A middleware perspective}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={This paper presents a scalable and collaborative mobile crowdsensing framework for efficient collective understanding of users, contexts, and their environments. Collaborative mobile crowdsensing enables information to be gathered and shared by users who are directly involved (participatory sensing) or integrated seamlessly as needed (opportunistic sensing) through user mobile platforms. To address the scalability needs of the mobile ecosystem, we additionally employ compressive sensing techniques for approximate gathering and processing of sensor data - this requires new mechanisms for sensor data collection, tunable approximate processing, and mobile networking architecture, to create a compressive collaborative mobile crowdsensing platform called SenseDroid. The proposed framework is build using a multi-tired hierarchical architecture to sense spatial variations of a parameter of interest, perceive spatio-temporal fields, and enable energy efficient local mobile sensing with a small number of measurements. This approximate, yet tunable approach combines different sensing approaches opportunistically while trading scalability (and coverage) for data accuracy (and energy efficiency). In this paper we propose and discuss the framework and the challenges associated with compressive and collaborative mobile sensing for multi-tired hierarchical mobile network architecture for emerging mobile collaborative applications.},
+  keywords={compressed sensing;groupware;middleware;mobile computing;outsourcing;sense-making;distributed sensing data;mobile sensing data;middleware;collaborative mobile crowdsensing framework;user mobile platforms;mobile ecosystem;compressive sensing techniques;multitired hierarchical mobile network architecture;collaborative mobile sensing;compressive mobile sensing;energy efficiency;data accuracy;energy efficient local mobile sensing;multitired hierarchical architecture;SenseDroid;compressive collaborative mobile crowdsensing platform;mobile networking architecture;tunable approximate processing;sensor data collection;sensor data processing;Sensors;Mobile communication;Collaboration;Mobile handsets;Context;Compressed sensing;Mobile computing;Compressive Sensing;Participatory Sensing;Collaborative Sensing;Sensor Network;Mobile Phone Sensing},
+  doi={10.1145/2593069.2596688},
+  ISSN={0738-100X},
+  month={June},}
+
+@INPROCEEDINGS{2014-date,
+  author={S. {Sarma} and N. {Dutt}},
+  booktitle={2014 Design, Automation   Test in Europe Conference   Exhibition (DATE)}, 
+  title={Minimal sparse observability of complex networks: Application to MPSoC sensor placement and run-time thermal estimation   tracking}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={This paper addresses the fundamental and practically useful question of identifying a minimum set of sensors and their locations through which a large complex dynamical network system and its time-dependent states can be observed. The paper defines the minimal sparse observability problem (MSOP) and provides analytical tools with necessary and sufficient conditions to make an arbitrary complex dynamic network system completely observable. The mathematical tools are then used to develop effective algorithms to find the sparsest measurement vector that provides the ability to estimate the internal states of a complex dynamic network system from experimentally accessible outputs. The developed algorithms are further used in the design of a sparse Kalman filter (SKF) to estimate the time-dependent internal states of a linear time-invariant (LTI) dynamical network system. The approach is applied to illustrate the minimum sensor in-situ run-time thermal estimation and robust hotspot tracking for dynamic thermal management (DTM) of high performance processors and MPSoCs.},
+  keywords={Kalman filters;system-on-chip;vectors;MPSoC sensor placement;run-time thermal estimation;minimal sparse observability problem;MSOP;analytical tools;complex dynamic network system;mathematical tools;sparsest measurement vector;sparse Kalman filter;SKF;time-dependent internal states;linear time-invariant dynamical network system;LTI system;robust hotspot tracking;dynamic thermal management;high performance processors;DTM;Program processors;Observability;Controllability;Kalman filters;Sparse matrices;Temperature sensors;Complex Networks;Sparsity;Observability;Controllability;Control Theory;Compressive Sensing;Thermal modeling;Temperature sensor placement;Estimation;Prediction;CyberPhysical Systems},
+  doi={10.7873/DATE.2014.342},
+  ISSN={1558-1101},
+  month={March},}
+
+@INPROCEEDINGS{2014-icc,
+  author={K. {Nakayama} and N. {Dang} and L. {Bic} and M. {Dillencourt} and E. {Bozorgzadeh} and N. {Venkatasubramanian}},
+  booktitle={2014 IEEE International Conference on Communications (ICC)}, 
+  title={Distributed flow optimization control for energy-harvesting wireless sensor networks}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={4083-4088},
+  abstract={This paper proposes a distributed flow-based routing technique in energy-harvesting wireless sensor networks (EHWSNs) in order to balance the energy consumptions by sending packets assigned to routers that are sent from sensors to base stations. The objective of the flow optimization problem is to minimize the total load factors of all the nodes and wireless links, which leads to sustainable management of the sensor networks that exploit renewable power from energy harvesting systems. We propose a novel algorithm based on tie-set graph theory where the underlying graph of an EHWSN is divided into a set of independent loops to significantly reduce the topological complexity, which simplifies the flow optimization problem to be solved in a distributed manner. Simulation experiments against the shortest-path and multi-path algorithms demonstrate that optimized packet flows by the proposed method realize the sustainable EHWSNs and maintain the useful life of storage devices with modest increase in total energy consumption by routings.},
+  keywords={energy harvesting;graph theory;optimisation;set theory;telecommunication network routing;wireless sensor networks;distributed flow optimization control;energy-harvesting wireless sensor networks;distributed flow-based routing technique;EHWSN;energy consumptions;sustainable management;tie-set graph theory;independent loops;topological complexity;multipath algorithms;shortest-path algorithm;Optimization;Energy consumption;Wireless sensor networks;Sensors;Graph theory;Load modeling;Distributed algorithms},
+  doi={10.1109/ICC.2014.6883960},
+  ISSN={1938-1883},
+  month={June},}
+
+@INPROCEEDINGS{2014-noms,
+  author={Z. {Qin} and G. {Denker} and C. {Giannelli} and P. {Bellavista} and N. {Venkatasubramanian}},
+  booktitle={2014 IEEE Network Operations and Management Symposium (NOMS)}, 
+  title={A Software Defined Networking architecture for the Internet-of-Things}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-9},
+  abstract={The growing interest in the Internet of Things (IoT) has resulted in a number of wide-area deployments of IoT subnetworks, where multiple heterogeneous wireless communication solutions coexist: from multiple access technologies such as cellular, WiFi, ZigBee, and Bluetooth, to multi-hop ad-hoc and MANET routing protocols, they all must be effectively integrated to create a seamless communication platform. Managing these open, geographically distributed, and heterogeneous networking infrastructures, especially in dynamic environments, is a key technical challenge. In order to take full advantage of the many opportunities they provide, techniques to concurrently provision the different classes of IoT traffic across a common set of sensors and networking resources must be designed. In this paper, we will design a software-defined approach for the IoT environment to dynamically achieve differentiated quality levels to different IoT tasks in very heterogeneous wireless networking scenarios. For this, we extend the Multinetwork INformation Architecture (MINA), a reflective (self-observing and adapting via an embodied Observe-Analyze-Adapt loop) middleware with a layered IoT SDN controller. The developed IoT SDN controller originally i) incorporates and supports commands to differentiate flow scheduling over task-level, multi-hop, and heterogeneous ad-hoc paths and ii) exploits Network Calculus and Genetic Algorithms to optimize the usage of currently available IoT network opportunities. We have applied the extended MINA SDN prototype in the challenging IoT scenario of wide-scale integration of electric vehicles, electric charging sites, smart grid infrastructures, and a wide set of pilot users, as targeted by the Artemis Internet of Energy and Arrowhead projects. Preliminary simulation performance results indicate that our approach and the extended MINA system can support efficient exploitation of the IoT multinetwork capabilities.},
+  keywords={calculus of communicating systems;genetic algorithms;Internet;Internet of Things;middleware;multi-access systems;scheduling;software radio;telecommunication control;telecommunication traffic;software defined networking architecture;Internet-of-Things;IoT subnetworks;wide-area deployments;heterogeneous wireless communication;multiple access technologies;cellular networks;WiFi;ZigBee;Bluetooth;multihop ad-hoc;MANET routing protocols;IoT traffic;networking resources;heterogeneous wireless networking;multinetwork information architecture;MINA SDN prototype;observe-analyze-adapt loop middleware;IoT SDN controller;flow scheduling;heterogeneous ad-hoc paths;network calculus;genetic algorithms;electric vehicles;electric charging sites;smart grid infrastructures;pilot users;Artemis Internet of energy projects;Arrowhead projects;MINA system;IoT multinetwork capabilities;Vehicles;Semantics;Delays;Cameras;Calculus;Streaming media;Monitoring},
+  doi={10.1109/NOMS.2014.6838365},
+  ISSN={2374-9709},
+  month={May},}
+
+  @INPROCEEDINGS{2014-infocom,
+  author={N. {Do} and Y. {Zhao} and S. {Wang} and C. {Hsu} and N. {Venkatasubramanian}},
+  booktitle={IEEE INFOCOM 2014 - IEEE Conference on Computer Communications}, 
+  title={Optimizing offline access to social network content on mobile devices}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1950-1958},
+  abstract={In this paper, we explore the problem of supporting efficient access to social media contents on social network sites for mobile devices without requiring mobile users to be online all the time. We propose and implement a broker/proxy based architecture that stages data at a broker/proxy, and selectively downloads to the mobile device only those contents that have a high likelihood of being viewed. The system determines the relevance of social media updates that continuously arrive (e.g., Facebook friend updates) for each user. Using knowledge of this relevance and current network/system conditions, we develop scheduling algorithms that determine which social contents are sent to the devices. We develop an Android app providing offline access to Facebook. Our experimental results indicate that our system is energy efficient, which saves energy by 6.9 times for WiFi and 9.1 times for cellular connections. We also use data traces gathered from our app to further drive extensive simulation based evaluations which show that our proposed algorithms provide efficient facilities for tuning the system's performance.},
+  keywords={Android (operating system);mobile computing;optimisation;scheduling;social networking (online);wireless LAN;offline access optimization;social network content;mobile devices;social network sites;broker-proxy based architecture;social media updates;network-system conditions;scheduling algorithms;Android app;Facebook;WiFi;cellular connections;data traces;Mobile handsets;Mobile communication;Social network services;Media;Prefetching;Mobile computing;Scheduling algorithms;Social networks;mobile devices;optimization;energy consumption;offline access},
+  doi={10.1109/INFOCOM.2014.6848135},
+  ISSN={0743-166X},
+  month={April},}
+
+  @INPROCEEDINGS{2014-noms-short,
+  author={Z. {Qin} and L. {Iannario} and C. {Giannelli} and P. {Bellavista} and G. {Denker} and N. {Venkatasubramanian}},
+  booktitle={2014 IEEE Network Operations and Management Symposium (NOMS)}, 
+  title={MINA: A reflective middleware for managing dynamic multinetwork environments}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={The networking landscape of today is characterized by diverse access technologies including cellular, WiFi, Ethernet, MANETs, and ZigBee, and properly managing this heterogeneous networking infrastructure is a key challenge to take full advantage of its many opportunities. In this paper, we propose MINA (Multinetwork INformation Architecture), a reflective (self-observing and adapting) middleware approach to realize and manage dynamic and heterogeneous multi-networks in pervasive environments. A novel aspect of MINA is that it embodies an Observe-Analyze-Adapt (OAA) loop to i) achieve a reasonably accurate, centralized global view of the multi-network through the design of novel techniques for overlay structuring, network state collection and formal methods-based analysis, and ii) take advantage of the global view for adapting multi-network structure by reallocating application flows across networks and proactively planning and deploying additional network resources.},
+  keywords={middleware;ubiquitous computing;reflective middleware;managing dynamic multinetwork environments;MINA;networking landscape;cellular;WiFi;Ethernet;MANET;ZigBee;multinetwork information architecture;middleware approach;pervasive environments;observe analyze adapt loop;overlay structuring;network state collection;formal methods based analysis;Routing protocols;Delays;Computer architecture;Servers;Quality of service;Degradation},
+  doi={10.1109/NOMS.2014.6838332},
+  ISSN={2374-9709},
+  month={May},}
+
+
+@INPROCEEDINGS{2014-icnc,
+  author={ {Zhijing Qin} and  {Ngoc Do} and G. {Denker} and N. {Venkatasubramanian}},
+  booktitle={2014 International Conference on Computing, Networking and Communications (ICNC)}, 
+  title={Software-defined cyber-physical multinetworks}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={322-326},
+  abstract={Advances in sensing technologies, mobile and pervasive computing, and cyberphysical systems are making new modalities of information and new channels of communication available. We discuss challenges in leveraging heterogeneous networking technologies to create resilient and flexible infrastructure for information collection and information dissemination in cyber-physical environments. We will also discuss how middleware technologies can assist in supporting cross-layer interactions amongst (a) the devices that collect and receive information, (b) multiple networks that communicate the content, (c) the platforms that process and store the information and (d) applications that use the information for diverse purposes. Drawing on examples from cyber-physical systems, we show how multinetworks can help drive semantic middleware to incorporate diverse sensors and inputs in a structured manner to generate situational awareness.. In particular, we discuss the role of multinetworks in emergency situations (whether natural hazards or manmade disasters) where infrastructure is typically unavailable or partially damaged. Multinetworks provide more reliability and better performance of information sharing and alert dissemination to responders and citizen at large than traditional single communication networks. The reason is that multinetworks allow combining connectivities that open up new possibilities for resilient, adaptive and scalable societal scale systems of the future.},
+  keywords={middleware;mobile computing;software radio;software-defined cyber-physical multinetworks;sensing technologies;mobile computing;pervasive computing;cyberphysical systems;heterogeneous networking technologies;flexible infrastructure;information collection;information dissemination;cyber-physical environments;middleware technologies;cross-layer interactions;semantic middleware;diverse sensors;situational awareness;natural hazards;manmade disasters;information sharing;alert dissemination;Sensors;IEEE 802.11 Standards;Software;Computer architecture;Cameras;Processor scheduling;Semantics},
+  doi={10.1109/ICCNC.2014.6785354},
+  ISSN={},
+  month={Feb},}
+
+  @incollection{2014-zhijing-book,
+  title={Quality-aware sensor data management},
+  author={Qin, Zhijing and Han, Qi and Mehrotra, Sharad and Venkatasubramanian, Nalini},
+  booktitle={The Art of Wireless Sensor Networks},
+  pages={429--464},
+  year={2014},
+  publisher={Springer}
+}
